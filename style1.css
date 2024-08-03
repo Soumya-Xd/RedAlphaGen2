@@ -107,7 +107,42 @@ ul li {
     width: calc(50% - 40px);
   }
 }
-
+.foot{
+    width: 100vw;
+    height: auto;
+    background: #1b9bff;
+    color: #fff;
+    font-size: 13px;
+    line-height: 20px;
+}
+.row{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.col1{
+    margin-top: 50px;
+    flex-basis: 35%;
+    padding-top: 10px;
+}
+.col{
+    flex-basis: 25%;
+    padding: 10px;
+}
+.col h3{
+    padding-left: 50px;
+}
+ul li{
+    list-style: none;
+    margin-bottom: 8px;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+}
 @media screen and (max-width: 480px) {
   ul li {
     width: 100%;
